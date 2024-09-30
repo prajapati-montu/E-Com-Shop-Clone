@@ -1,0 +1,716 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header-top">
+                <div class="logo1-img">
+                    <img src="/Images/img1.svg" alt="">
+                 
+                </div>
+                <div class="buy-bt">
+                    <button><a href="#">Buy now</a></button>
+                </div>
+            </div>
+        <header>
+            <div class="header1-area">
+                <div class="container">
+                    <div class="row">
+                        <!-- <div class="header-user-right"> -->
+                        <div class="col-md-6">
+                            <div class="user-menu">
+                                <div class="eng-menu">
+                                    <a href="">English</a>
+                                </div>
+                                <div class="usd-menu">
+                                    <a href="">USD</a>
+                                </div>
+                                <div class="wel-menu">
+                                    <a href="">Welcome to Ecommerce</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="header-right">
+                                <div class="act">
+                                    <img src="/Images/account.png" alt="">
+                                    <a href="">My Account</a>
+                                </div>
+                                <div class="Wishlist">
+                                    <a href="">Wishlist</a>
+                                </div>
+                                <div class="check">
+                                    <img src="/Images/check.png" alt="">
+                                    <a href="">Checkout</a>
+                                </div>
+                                <div class="login">
+                                    <img src="/Images/log.png" alt="">
+                                    <a href=""> Login</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="logo-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="logo2-img">
+                                <img src="/Images/logo1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="search-area-cont">
+                                <div class="search-area">
+                                    <!-- <div class="all-cat">
+                                        <a href=""> </a>
+                                        <b class="caret"></b> -->
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                All Categories
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                              <a class="dropdown-item" href="#">Action</a>
+                                              <a class="dropdown-item" href="#">Another action</a>
+                                              <a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                          </div>
+                                    <!-- </div> -->
+                                    <div class="search-bar1">
+                                        <form>
+                                            <input type="text" placeholder="Search here....">
+                                            <!-- <i class="fa-sharp fa-solid fa-magnifying-glass"></i> -->
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <span><i class="fa fa-phone"></i></span>
+                                    <a href="">CALL US FREE <br> +01 123 456 89
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-menu-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="categ">
+                                <a href="">Categories</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="main-menu-neg">
+                                <ul>
+                                    <li><a href="">HOME</a></li>
+                                    <li><a href="">PAGES</a></li>
+                                    <li><a href="">ABOUT US</a></li>
+                                    <li><a href=""> MEN</a></li>
+                                    <li><a href=""> WOMEN </a></li>
+                                    <li><a href="">CONTACT US</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="my-car-2">
+                                <a href="">My Cart</a>
+                                <span>2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="slider-sec1">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="/Images/slider1.png" alt="Los Angeles">
+                        </div>
+
+                        <div class="item">
+                            <img src="/Images/slider2.png" alt="Chicago">
+                        </div>
+
+                        <div class="item">
+                            <img src="/Images/slider3.png" alt="New York">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </div>
+            <div class="men-feacture">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="featured-single">
+                                <div class="featured-img">
+                                    <img src="/Images/men1.png" alt="">
+                                    <div class="featured-text">
+                                        <h3>Men watches</h3>
+                                        <p>Collection instore and online</p>
+                                    </div>
+                                    <div class="feat-hover">
+                                        <div class="feat-in"></div>
+                                    </div>
+                                    <div class="tag percent-t">
+                                        <span>25%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="featured-single">
+                                <div class="featured-img">
+                                    <img src="/Images/men2.png" alt="">
+                                    <div class="featured-text">
+                                        <h3>SHOES FOR WOMEN</h3>
+                                        <p> SUMMER COLLECTION 2015</p>
+                                    </div>
+                                    <div class="feat-hover">
+                                        <div class="feat-in"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="featured-single">
+                                <div class="featured-img">
+                                    <img src="/Images/men3.png" alt="">
+                                    <div class="featured-text">
+                                        <h3>MEN SHOES</h3>
+                                        <p>SALE UP TO 50% OFF</p>
+                                    </div>
+                                    <div class="feat-hover">
+                                        <div class="feat-in"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="men-sec-cloth">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="headline">
+                            <h2>Men clothing</h2>
+                        </div>
+                        <div class="men-formal-cloth">
+                            <div class="col-md-3">
+                                <div class="men1">
+                                    <img src="/Images/men4.png" alt="">
+                                    <h4>Trendy t-shirt for men</h4>
+                                    <span>$250.00</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="men1">
+                                    <img src="/Images/men5.png" alt="">
+                                    <h4>Formal Suit for men</h4>
+                                    <span>$260.00</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="men1">
+                                    <img src="/Images/men6.png" alt="">
+                                    <h4>Formal Suit for men</h4>
+                                    <span>$180.00</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="men1">
+                                    <img src="/Images/men7.png" alt="">
+                                    <h4>Modern shirt</h4>
+                                    <span>$3000.00</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="men1">
+                                    <img src="/Images/men8.png" alt="">
+                                    <h4>Modern shirt</h4>
+                                    <span>$3000.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="style-sec-collet">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="style-sec1">
+                                <div class="style-img">
+                                    <img src="/Images/style.png" alt="">
+                                    <div class="style-text">
+                                        <h3>TOP COLLECTION</h3>
+                                        <p>NEW COLLECTION FOR MEN</p>
+                                    </div>
+                                    <div class="style-feat-hover">
+                                        <div class="style-feat-in"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="style-sec2">
+                                <div class="style2-img">
+                                    <img src="/Images/style1.png" alt="">
+                                    <div class="style2-text">
+                                        <h3>TRENDS FOR GIRLS</h3>
+                                        <p>ACCESSORIES COLLECTION</p>
+                                    </div>
+                                    <div class="style2-feat-hover">
+                                        <div class="style2-feat-in"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wowen-sec-cloth">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="headline">
+                            <h2>WOMEN ACCESSORIES</h2>
+                        </div>
+                        <div class="women-formal-cloth">
+                            <div class="col-md-3">
+                                <div class="men1">
+                                    <img src="/Images/w1.png" alt="">
+                                    <h4>Trendy t-shirt for men</h4>
+                                    <span>$250.00</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="men1">
+                                    <img src="/Images/w2.png" alt="">
+                                    <h4>Formal Suit for men</h4>
+                                    <span>$260.00</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="men1">
+                                    <img src="/Images/w3.png" alt="">
+                                    <h4>Formal Suit for men</h4>
+                                    <span>$180.00</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="men1">
+                                    <img src="/Images/w4.png" alt="">
+                                    <h4>Modern shirt</h4>
+                                    <span>$3000.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="brand-sec-cloth">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="brand-formal-cloth">
+                            <div class="col-md-3">
+                                <div class="men1">
+                                    <img src="/Images/b1.png" alt="">
+                                    <h4>Trendy t-shirt for men</h4>
+                                    <span>$250.00</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="men1">
+                                    <img src="/Images/b2.png" alt="">
+                                    <h4>Formal Suit for men</h4>
+                                    <span>$260.00</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="men1">
+                                    <img src="/Images/b3.png" alt="">
+                                    <h4>Formal Suit for men</h4>
+                                    <span>$180.00</span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="men1">
+                                    <img src="/Images/b4.png" alt="">
+                                    <h4>Modern shirt</h4>
+                                    <span>$3000.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="testimonial-sec" id="test-slider">
+                            <div class="testimonial-text">
+                                <p id="testimonial-text1">Till the one day when the lady met this fellow and they knew
+                                    it was much more than a
+                                    hunch. These Happy Days are yours and mine Happy Days. Its mission to explore
+                                    strange new worlds to seek out new man has gone before.</p>
+                            </div>
+                            <div class="testimonial-img">
+                                <img id="testimonial-img1" src="/Images/customer.png" alt="">
+
+                                <div class="testimonial-text-customer">
+                                    <h4 id="customer-text">Micheal Clerk</h4>
+                                    <h5 id="customer-text1">Customer Sydney</h5>
+                                </div>
+                            </div>
+                            <div class="bt">
+                                <input type="button" value=" " onclick="left()">
+                                <input type="button" value=" " onclick="middle()">
+                                <input type="button" value=" " onclick="right()">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="latest-production">
+                <div class="container">
+                    <div class="row">
+                        <div class="headline-lst-prod">
+                            <h2>LATEST PRODUCT</h2>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="latest-single">
+                                <img src="/Images/l1.png" alt="">
+                                <div class="latest-single-text">
+                                    <h4>CANON PRINTER</h4>
+
+                                    <span>
+                                        $3000.00</span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="latest-single">
+                                <img src="/Images/l2.png" alt="">
+                                <div class="latest-single-text">
+                                    <h4>COMPUTER SPEAKERS</h4>
+                                    <span>
+                                        $280.00
+                                    </span>
+                                    <del>$320.00</del>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="latest-single">
+                                <img src="/Images/l33.png" alt="">
+                                <div class="latest-single-text">
+                                    <h4>SAMSUNG MICROWAVE OVEN</h4>
+                                    <span>
+                                        $3000.00</span>
+                                    <del>$570.00</del>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="latest-single">
+                                <img src="/Images/l33.png" alt="">
+                                <div class="latest-single-text">
+                                    <h4>NEW WASHING MACHINE</h4>
+                                    <span>
+                                        $450.00</span>
+                                    <del>$320.00</del>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="latest-single">
+                                <img src="/Images/l4.png" alt="">
+                                <div class="latest-single-text">
+                                    <h4>CANON CAMERA</h4>
+                                    <span>
+                                        $420.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="latest-single">
+                                <img src="/Images/l6.png" alt="">
+                                <div class="latest-single-text">
+                                    <h4>BREAD TOASTERS </h4>
+                                    <span>
+                                        $280.00</span>
+                                    <del>$320.00</del>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="latest-single">
+                                <img src="/Images/l5.png" alt="">
+                                <div class="latest-single-text">
+                                    <h4>TRIMMER FOR MEN</h4>
+                                    <span>
+                                        $120.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="latest-single">
+                                <img src="/Images/l8.png" alt="">
+                                <div class="latest-single-text">
+                                    <h4>COFFEE MAKER</h4>
+                                    <span>
+                                        $250.00</span>
+                                    <del>$320.00</del>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="brand-shoping">
+                <img src="/Images/shot4.png" alt="">
+            </div>
+            <div class="lst-from-blog">
+                <div class="container">
+                    <div class="row">
+                        <div class="headline-lst-prod">
+                            <h2>LATEST FROM OUR BLOG</h2>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="blog-single">
+                                <img src="/Images/shut.png" alt="">
+                                <div class="blog-single-text">
+                                    <h3>SAID CALIFORN'Y IS THE PLACE</h3>
+                                    <hr class="blog-text-h3">
+                                    <p>Like Robinson Crusoe it's primitive as can be. Sunny Days sweepin' the clouds
+                                        away. On my way to where the air is sweet Crusoe it's primitive.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="blog-single">
+                                <img src="/Images/shot2.png" alt="">
+                                <div class="blog-single-text">
+                                    <h3>YOUR NAME BLACK GOLD GOODBYE</h3>
+                                    <hr class="blog-text-h3">
+                                    <p>I have always wanted to have a neighbor just like you. I've always wanted to live
+                                        in a neighborhood with you here's the story of a lovely.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="blog-single">
+                                <img src="/Images/shut3.png" alt="">
+                                <div class="blog-single-text">
+                                    <h3>FLYING AWAY ON A WING AND A PRAYER</h3>
+                                    <hr class="blog-text-h3">
+                                    <p>Just sit right back and you'll hear a tale a tale of a fateful trip that started
+                                        from this tropic port aboard this tiny ship said Californ.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+
+        <footer>
+            <div class="footer-top-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="top-border"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="top-area-1">
+                                <h4>Free Shipping on order over $1000</h4>
+                                <p>It's time to meet the Muppets on the Muppet Show tonight. And we know Flipper.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="top-area-1">
+                                <h4>UNLIMITED GIFTS ON EVERY ORDER</h4>
+                                <p>It's time to meet the Muppets on the Muppet Show tonight. And we know Flipper.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="top-area-1">
+                                <h4>100% MONEY BACK GUARANTEE</h4>
+                                <p>It's time to meet the Muppets on the Muppet Show tonight. And we know Flipper.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-widget">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="widget-logo">
+                                <img src="/Images/logo2.png" alt="">
+                                <div class="foot-address">
+                                    <p>ADDRESS : 09 Ecommerceshop, Design Street, Victoria, Australia</p>
+                                </div>
+                                <div class="foot-address">
+                                    <p>E-MAIL :
+                                        <br> Info@Ecommerceshop.com
+                                    </p>
+                                </div>
+                                <div class="foot-address">
+                                    <p>PHONE : +01 123 456 78</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="my-account-footer">
+                                <div class="my-ac">
+                                    <h4>MY ACCOUNT</h4>
+                                </div>
+                                <div class="my-ac-sec">
+                                    <ul>
+                                        <li>My Account</li>
+                                        <li>Wishlist</li>
+                                        <li>Shopping Cart</li>
+                                        <li>Checkout</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="my-account-footer">
+                                <div class="my-ac">
+                                    <h4>INFORMATION</h4>
+                                </div>
+                                <div class="my-ac-sec">
+                                    <ul>
+                                        <li>About Our Shop</li>
+                                        <li> Top Seller</li>
+                                        <li> Special Products</li>
+                                        <li> Manufacturers</li>
+                                        <li>Secure Shopping</li>
+                                        <li>Privacy Policy</li>
+                                        <li>Delivery Information</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="my-account-footer">
+                                <div class="my-ac">
+                                    <h4>OUR SUPPORT</h4>
+                                </div>
+                                <div class="my-ac-sec">
+                                    <ul>
+                                        <li>Contact Us </li>
+                                        <li> Shipping & Taxes </li>
+                                        <li>Return Policy</li>
+                                        <li>Careers</li>
+                                        <li>Affiliates</li>
+                                        <li>Gift Vouchers</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="my-account-footer">
+                                <div class="my-ac">
+                                    <h4>OUR SERVICES</h4>
+                                </div>
+                                <div class="my-ac-sec">
+                                    <ul>
+                                        <li>Shipping & Returns</li>
+                                        <li> International Shopping</li>
+                                        <li>Best Customer Support</li>
+                                        <li>Easy Replacement</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-end-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="footer-end-text">
+                            <p>©2015 E-COMSHOP. ALL RIGHTS RESERVED</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="footer-end-bank">
+                                <img src="/Images/banl.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="/Images//JS/project17.js"></script>
+</body>
+
+</html>
+
+<!-- <div class="data-list">
+    <input list="maulik">
+    <datalist id="maulik">
+     <option value="kb"></option>
+     <option value="kl"></option>
+         <option value="kc"></option>    
+    </datalist>
+ </div> -->
